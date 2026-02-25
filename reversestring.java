@@ -9,6 +9,6 @@ class solution{
             left++;
             right--;
         }
-        return 0; // Return a value since the method is declared to return in
+        return 0; 
 }
 }
