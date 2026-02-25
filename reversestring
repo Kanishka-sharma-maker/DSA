@@ -1,0 +1,14 @@
+class solution{
+    public int reverseString(int[] s){
+        int left = 0;
+        int right = s.length - 1;
+        while(left < right){
+            int temp = s[left];
+            s[left] = s[right];
+            s[right] = temp;
+            left++;
+            right--;
+        }
+        return 0; // Return a value since the method is declared to return in
+}
+}
